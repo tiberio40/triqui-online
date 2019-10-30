@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFB81C15FF7A72509ACE2C7 /* Pods_triqui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8FCE5CD1C6DC8878DBBEE2 /* Pods_triqui.framework */; };
+		7C19526723686FA200855C80 /* MultiPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C19526623686FA200855C80 /* MultiPlayerController.swift */; };
+		7C19526923687CDA00855C80 /* MultiplayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C19526823687CDA00855C80 /* MultiplayerModel.swift */; };
+		7C23DB162367EA9A001AAC7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C23DB152367EA9A001AAC7A /* GoogleService-Info.plist */; };
+		7C694BCC2343256C008AFF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C694BCB2343256C008AFF17 /* AppDelegate.swift */; };
+		7C694BCE2343256C008AFF17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C694BCD2343256C008AFF17 /* SceneDelegate.swift */; };
+		7C694BD02343256C008AFF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C694BCF2343256C008AFF17 /* ViewController.swift */; };
+		7C694BD32343256C008AFF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C694BD12343256C008AFF17 /* Main.storyboard */; };
+		7C694BD62343256C008AFF17 /* triqui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C694BD42343256C008AFF17 /* triqui.xcdatamodeld */; };
+		7C694BD82343256C008AFF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C694BD72343256C008AFF17 /* Assets.xcassets */; };
+		7C694BDB2343256C008AFF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C694BD92343256C008AFF17 /* LaunchScreen.storyboard */; };
+		7C694BE423432F7D008AFF17 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C694BE323432F7D008AFF17 /* Play.swift */; };
+		7C694BE6234453EB008AFF17 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C694BE5234453EB008AFF17 /* sound.mp3 */; };
+		7CBDB92E23684A07008317DA /* PlayListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDB92D23684A07008317DA /* PlayListController.swift */; };
+		7CC3F515234A92D700074069 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3F514234A92D700074069 /* PreferencesController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CA451B68645D37911BA6582 /* Pods-triqui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-triqui.debug.xcconfig"; path = "Target Support Files/Pods-triqui/Pods-triqui.debug.xcconfig"; sourceTree = "<group>"; };
+		4D57BD46C17ACC31842D31E5 /* Pods-triqui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-triqui.release.xcconfig"; path = "Target Support Files/Pods-triqui/Pods-triqui.release.xcconfig"; sourceTree = "<group>"; };
+		7C19526623686FA200855C80 /* MultiPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayerController.swift; sourceTree = "<group>"; };
+		7C19526823687CDA00855C80 /* MultiplayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerModel.swift; sourceTree = "<group>"; };
+		7C23DB152367EA9A001AAC7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C694BC82343256C008AFF17 /* triqui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triqui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C694BCB2343256C008AFF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C694BCD2343256C008AFF17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C694BCF2343256C008AFF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C694BD22343256C008AFF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C694BD52343256C008AFF17 /* triqui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = triqui.xcdatamodel; sourceTree = "<group>"; };
+		7C694BD72343256C008AFF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C694BDA2343256C008AFF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C694BDC2343256C008AFF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C694BE323432F7D008AFF17 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		7C694BE5234453EB008AFF17 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		7CBDB92D23684A07008317DA /* PlayListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListController.swift; sourceTree = "<group>"; };
+		7CC3F514234A92D700074069 /* PreferencesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+		7D8FCE5CD1C6DC8878DBBEE2 /* Pods_triqui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_triqui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C694BC52343256C008AFF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFB81C15FF7A72509ACE2C7 /* Pods_triqui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C694BBF2343256C008AFF17 = {
+			isa = PBXGroup;
+			children = (
+				7C694BCA2343256C008AFF17 /* triqui */,
+				7C694BC92343256C008AFF17 /* Products */,
+				8EAFC7FF9016D19DE99705CC /* Pods */,
+				E318DF12792F5ECD61448AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C694BC92343256C008AFF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C694BC82343256C008AFF17 /* triqui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C694BCA2343256C008AFF17 /* triqui */ = {
+			isa = PBXGroup;
+			children = (
+				7C694BE5234453EB008AFF17 /* sound.mp3 */,
+				7C694BE223432F13008AFF17 /* Models */,
+				7C694BCB2343256C008AFF17 /* AppDelegate.swift */,
+				7C694BCD2343256C008AFF17 /* SceneDelegate.swift */,
+				7C694BCF2343256C008AFF17 /* ViewController.swift */,
+				7C694BD12343256C008AFF17 /* Main.storyboard */,
+				7C694BD72343256C008AFF17 /* Assets.xcassets */,
+				7C694BD92343256C008AFF17 /* LaunchScreen.storyboard */,
+				7C694BDC2343256C008AFF17 /* Info.plist */,
+				7C23DB152367EA9A001AAC7A /* GoogleService-Info.plist */,
+				7C694BD42343256C008AFF17 /* triqui.xcdatamodeld */,
+				7CC3F514234A92D700074069 /* PreferencesController.swift */,
+				7CBDB92D23684A07008317DA /* PlayListController.swift */,
+				7C19526623686FA200855C80 /* MultiPlayerController.swift */,
+			);
+			path = triqui;
+			sourceTree = "<group>";
+		};
+		7C694BE223432F13008AFF17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C694BE323432F7D008AFF17 /* Play.swift */,
+				7C19526823687CDA00855C80 /* MultiplayerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EAFC7FF9016D19DE99705CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CA451B68645D37911BA6582 /* Pods-triqui.debug.xcconfig */,
+				4D57BD46C17ACC31842D31E5 /* Pods-triqui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E318DF12792F5ECD61448AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FCE5CD1C6DC8878DBBEE2 /* Pods_triqui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C694BC72343256C008AFF17 /* triqui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C694BDF2343256C008AFF17 /* Build configuration list for PBXNativeTarget "triqui" */;
+			buildPhases = (
+				770F38D064D2AE665276E68A /* [CP] Check Pods Manifest.lock */,
+				7C694BC42343256C008AFF17 /* Sources */,
+				7C694BC52343256C008AFF17 /* Frameworks */,
+				7C694BC62343256C008AFF17 /* Resources */,
+				4506F7DA0E70B7F2A5811CE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = triqui;
+			productName = triqui;
+			productReference = 7C694BC82343256C008AFF17 /* triqui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C694BC02343256C008AFF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Laurent castañeda ramirez";
+				TargetAttributes = {
+					7C694BC72343256C008AFF17 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 7C694BC32343256C008AFF17 /* Build configuration list for PBXProject "triqui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C694BBF2343256C008AFF17;
+			productRefGroup = 7C694BC92343256C008AFF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C694BC72343256C008AFF17 /* triqui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C694BC62343256C008AFF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C694BDB2343256C008AFF17 /* LaunchScreen.storyboard in Resources */,
+				7C694BD82343256C008AFF17 /* Assets.xcassets in Resources */,
+				7C23DB162367EA9A001AAC7A /* GoogleService-Info.plist in Resources */,
+				7C694BE6234453EB008AFF17 /* sound.mp3 in Resources */,
+				7C694BD32343256C008AFF17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4506F7DA0E70B7F2A5811CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-triqui/Pods-triqui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-triqui/Pods-triqui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-triqui/Pods-triqui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770F38D064D2AE665276E68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-triqui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C694BC42343256C008AFF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C19526923687CDA00855C80 /* MultiplayerModel.swift in Sources */,
+				7CC3F515234A92D700074069 /* PreferencesController.swift in Sources */,
+				7C694BD02343256C008AFF17 /* ViewController.swift in Sources */,
+				7C19526723686FA200855C80 /* MultiPlayerController.swift in Sources */,
+				7C694BD62343256C008AFF17 /* triqui.xcdatamodeld in Sources */,
+				7C694BCC2343256C008AFF17 /* AppDelegate.swift in Sources */,
+				7C694BCE2343256C008AFF17 /* SceneDelegate.swift in Sources */,
+				7CBDB92E23684A07008317DA /* PlayListController.swift in Sources */,
+				7C694BE423432F7D008AFF17 /* Play.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C694BD12343256C008AFF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C694BD22343256C008AFF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C694BD92343256C008AFF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C694BDA2343256C008AFF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C694BDD2343256C008AFF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C694BDE2343256C008AFF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C694BE02343256C008AFF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA451B68645D37911BA6582 /* Pods-triqui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT5XJLYS4S;
+				INFOPLIST_FILE = triqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moviles.triqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C694BE12343256C008AFF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D57BD46C17ACC31842D31E5 /* Pods-triqui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT5XJLYS4S;
+				INFOPLIST_FILE = triqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moviles.triqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C694BC32343256C008AFF17 /* Build configuration list for PBXProject "triqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C694BDD2343256C008AFF17 /* Debug */,
+				7C694BDE2343256C008AFF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C694BDF2343256C008AFF17 /* Build configuration list for PBXNativeTarget "triqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C694BE02343256C008AFF17 /* Debug */,
+				7C694BE12343256C008AFF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C694BD42343256C008AFF17 /* triqui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C694BD52343256C008AFF17 /* triqui.xcdatamodel */,
+			);
+			currentVersion = 7C694BD52343256C008AFF17 /* triqui.xcdatamodel */;
+			path = triqui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7C694BC02343256C008AFF17 /* Project object */;
+}

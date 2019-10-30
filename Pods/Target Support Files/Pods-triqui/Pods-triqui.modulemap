@@ -1,0 +1,6 @@
+framework module Pods_triqui {
+  umbrella header "Pods-triqui-umbrella.h"
+
+  export *
+  module * { export * }
+}
